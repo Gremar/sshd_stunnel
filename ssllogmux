@@ -1,5 +1,10 @@
 #! /bin/sh
 
+# chkconfig: 2345 95 20
+# description: start ssllogmux
+# What your script does (not sure if this is necessary though)
+# processname: ssllogmux
+
 # source function library
 . /etc/rc.d/init.d/functions
 
